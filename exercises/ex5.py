@@ -3,6 +3,11 @@
 
 def sum_even_numbers(numbers):
     # Your code here
+    result = 0
+    for i in numbers:
+        if i % 2 == 0:
+            result = result + i
+    return result
     pass
 
 

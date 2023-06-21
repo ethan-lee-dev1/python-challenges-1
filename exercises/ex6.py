@@ -4,6 +4,11 @@
 
 def filter_uppercase_strings(strings):
     # Your code here
+    result = []
+    for element in strings:
+        if element[0].isupper():
+            result.append(element)
+    return result
     pass
 
 
